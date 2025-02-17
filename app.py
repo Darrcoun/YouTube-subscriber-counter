@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-YOUTUBE_API_KEY = "YOUR_API_KEY"
-CHANNEL_ID = "YOUR_CHANNEL_ID"
+YOUTUBE_API_KEY = "AIzaSyAuWVCegfLvuk4qwd0JJmWmIkrFybqtOy4"
+CHANNEL_ID = "UCWiYh1ebBCW-hUBnjoSPceg"
 
 def get_subscriber_count():
     """Fetch the latest subscriber count from YouTube API."""
