@@ -4,8 +4,8 @@ import os
 
 app = Flask(__name__)
 
-YOUTUBE_API_KEY = os.environ.get("AIzaSyAuWVCegfLvuk4qwd0JJmWmIkrFybqtOy4")
-CHANNEL_ID = os.environ.get("UCWiYh1ebBCW-hUBnjoSPceg")
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY")
+CHANNEL_ID = os.environ.get("CHANNEL_ID")
 
 def get_subscriber_count():
     url = f'https://www.googleapis.com/youtube/v3/channels?part=statistics&id={CHANNEL_ID}&key={YOUTUBE_API_KEY}'
